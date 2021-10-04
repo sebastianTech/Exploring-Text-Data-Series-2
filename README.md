@@ -19,21 +19,28 @@ In dealing with text data by default unstructured, a regular expression is a too
 It can be a good tool in removing noise, as cited in the scenarios. The different syntax for regular expression exists (Syntax for Regular
 expression). This series covers "Regular functions" available in the "re" python library and how to use it. The first function is:
 
-Match: is for finding the first word in a sentence. 
+Match: is for finding the first word in a sentence.
+![image](https://user-images.githubusercontent.com/66043834/135930490-5d240209-fe75-4989-af45-88f5f08ecdad.png)
+
 If a search for the string "Patient" with Match function, it will come back with "None" because the match function searches for the first string in text data. If we want to search for another word in the text data, we use a function called:
 Search: locates pattern in the strings. This function goes through the text to discover the word "patient." 
+![image](https://user-images.githubusercontent.com/66043834/135930538-8595e9ca-7d53-4800-b79a-49dfc7c5d968.png)
+
 Assuming we have more than a word in a sentence, we use a function called:
 Findall: It will list all the occurrences of the string. Attempting to find out the exact index where these strings require another function:
+![image](https://user-images.githubusercontent.com/66043834/135930579-ddb94376-32fa-4562-ad75-1900d2c26f81.png)
 
  
 finditer” is the function to use, however, with a for loop.
-  
+ ![image](https://user-images.githubusercontent.com/66043834/135930604-c97cf4c4-47ec-4153-970f-34e03e16d6f5.png)
+ 
 
 If we want to replace a string with another string in text data, we can use a function called:
 Sub: search and replaces.
 
 Our text data is: "The patient has signs of tuberculosis in his left lungs, although his right lung is free; let's try a new treatment with x-ray Isomaliazid, 400mg/ day” I am going to replace 400 mg with 500mg.
- 
+ ![image](https://user-images.githubusercontent.com/66043834/135930623-c822f442-0250-4bba-a468-e1526368fe42.png)
+
 
  Conclusion
 Knowing how to use regular expression is a good technique in exploring text data. It is a powerful search and string matching technique to make an exact match on text, words, characters, numerical expression, and non-alphanumeric expression. Application of regular function on tweet data will be uploaded on Github.  
