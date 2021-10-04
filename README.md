@@ -32,6 +32,7 @@ Findall: It will list all the occurrences of the string. Attempting to find out 
 
  
 finditer” is the function to use, however, with a for loop.
+
  ![image](https://user-images.githubusercontent.com/66043834/135930604-c97cf4c4-47ec-4153-970f-34e03e16d6f5.png)
  
 
