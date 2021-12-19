@@ -5,6 +5,7 @@ In series 1, we look at the introduction of text data and the link with NLP. Som
 ![image](https://user-images.githubusercontent.com/66043834/135930398-e91f2460-2a93-4061-8364-bf37c70ae130.png)
 
 
+
 In deriving intelligence, the unstructured text data need to go through some process to enable statistical algorithms to discover the relationship, patterns that will be informative-the accurate picture of big data. The first process is information retrieval. It can be in the form of keywords, term associations to identify the relevant document from a pool of digital text documents. An example is the web search or library catalog search, to search a piece of information.
 
 
